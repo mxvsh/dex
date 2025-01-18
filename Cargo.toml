@@ -1,0 +1,9 @@
+[package]
+name = "dex"
+version = "0.1.0"
+edition = "2021"
+authors = ["mxvsh"]
+
+[dependencies]
+clap = { version = "4.5.26", features = ["derive"] }
+indicatif = "0.17.9"
