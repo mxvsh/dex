@@ -12,13 +12,19 @@ A simple CLI tool to run commands in multiple directories simultaneously.
 ## Installation
 
 ```bash
-cargo install dex
+curl -LsSf https://dex.monawwar.io/install.sh | bash
 ```
 
 ## Usage
 
 ```bash
 dex --command "npm install" --dirs "project1,project2,project3"
+```
+
+OR
+
+```bash
+dex -c "npm install" -d "project1,project2,project3"
 ```
 
 ### Arguments
