@@ -1,6 +1,8 @@
 # dex
 
-A simple CLI tool to run commands in multiple directories simultaneously.
+A simple CLI tool to run commands in multiple directories simultaneously. It is useful when you have multiple projects and you want to run the same command in each of them.
+
+The tool is written completely in Rust and aims to be fast and efficient. It uses threads to run the commands in parallel and provides progress indicators for each directory.
 
 ## Features
 
